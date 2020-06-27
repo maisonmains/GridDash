@@ -28,5 +28,5 @@ private:
 	int y;
 	int score = 0;
 	static constexpr Color c = Colors::Red;
-	int dims = 16;
+	int dims = 10;
 };

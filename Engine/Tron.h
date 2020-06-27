@@ -1,6 +1,8 @@
 #pragma once
 #include "MainWindow.h"
 #include "Keyboard.h"
+#include "Sprites.h"
+
 class Tron
 {
 public:
@@ -33,7 +35,6 @@ public:
 		return height;
 	}
 private:
-
 	int x;
 	int y;
 	static constexpr int speed = 1;

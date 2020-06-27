@@ -27,6 +27,7 @@
 #include "Tron.h"
 #include "Box.h"
 #include "Proggress.h"
+#include "Sprites.h"
 #include <random>
 
 class Game
@@ -41,9 +42,6 @@ private:
 	void UpdateModel();
 	/********************************/
 	/*  User Functions*/
-
-	void DrawTitleScreen( int x, int y );
-	void DrawGameOver( int x, int y );
 
 	/********************************/
 private:
@@ -61,6 +59,7 @@ private:
 
 	Tron tron;
 	Box box;
+	Sprites s;
 	Proggress proggBar;
 	Rinzler rinzDivision[size];
 	

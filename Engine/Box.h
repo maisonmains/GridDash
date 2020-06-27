@@ -23,7 +23,7 @@ private:
 
 	int dims = 16;
 	
-	Color c = {0, 127, 0};
+	Color c = { 0, 127, 0 };
 
 	bool colorPlus = true;
 	bool initialized = false;
